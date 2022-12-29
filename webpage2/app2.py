@@ -17,8 +17,8 @@ def local_css(file_name):
 local_css("webpage2/style/style.css")
 
 lottie_coding = load_lottieurl ("https://assets5.lottiefiles.com/packages/lf20_ymEv4F.json")
-img_fac_logo = Image.open("images/biotech.png")
-img_uni_logo = Image.open("images/Nile_University_logo.png")
+img_fac_logo = Image.open("webpage2/images/biotech.png")
+img_uni_logo = Image.open("webpage2/images/Nile_University_logo.png")
 
 with st.container():
 
