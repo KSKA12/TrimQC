@@ -57,7 +57,7 @@ with st.container():
             Make sure to choose the appropriate adaptor and parameters for the best results.
             """
         )
-        url = 'https://hamzawy74-toolpage-app2-3ggrp0.streamlit.app/'
+        url = 'https://kska12-trimqc-webpage2app2-5qzleo.streamlit.app/'
 
         if st.button('Check Sequence Here!'):
             webbrowser.open_new_tab(url)
