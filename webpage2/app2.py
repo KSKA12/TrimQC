@@ -14,7 +14,7 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style",unsafe_allow_html=True)
         
-local_css("style/style.css")
+local_css("webpage2/style/style.css")
 
 lottie_coding = load_lottieurl ("https://assets5.lottiefiles.com/packages/lf20_ymEv4F.json")
 img_fac_logo = Image.open("images/biotech.png")
