@@ -19,13 +19,13 @@ def local_css(file_name):
 local_css("webpage1/style/style.css")
 
 lottie_coding = load_lottieurl ("https://assets5.lottiefiles.com/packages/lf20_ymEv4F.json")
-img_fac_logo = Image.open("images/biotech.png")
-img_uni_logo = Image.open("images/Nile_University_logo.png")
-img_kamal = Image.open("images/kamal.png")
-img_sisi = Image.open("images/sisi.png")
-img_andrew = Image.open("images/andrew.png")
-img_hamza = Image.open("images/hamza.png")
-img_hwary = Image.open("images/hwary.png")
+img_fac_logo = Image.open("webpage1/images/biotech.png")
+img_uni_logo = Image.open("webpage1/images/Nile_University_logo.png")
+img_kamal = Image.open("webpage1/images/kamal.png")
+img_sisi = Image.open("webpage1/images/sisi.png")
+img_andrew = Image.open("webpage1/images/andrew.png")
+img_hamza = Image.open("webpage1/images/hamza.png")
+img_hwary = Image.open("webpage1/images/hwary.png")
 with st.container():
 
     st.subheader("Welcome to our Quality Check and Trimming Tool")
